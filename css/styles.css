@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #393E46;
+}
+hr{
+    border: dotted #5c6868 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto; 
+}
+h1{
+    margin: 60px auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    font-size: 7.625rem;
+}
+h2,h3{
+    color: #393E46;
+}
+p{
+    line-height: 2;
+}
+.bio{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0px;
+    font-weight: normal;
+}
+.intro{
+    margin:auto;
+    width:30%;
+}
+.top_container{
+    background-color: #F7F7F7;
+    padding: 50px 0px 0px 0px;
+    position: relative;
+}
+.middle_container{
+    background-color: #f7f7f7;
+    padding-top: 50px;
+    color: #6D9886;
+}
+.bottom_container{
+    background-color: #6D9886;
+    margin-top: 0px;  
+    padding: 10px 0 15px;
+}
+.skill-row{ 
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+.skills{
+    float: left;
+    margin-right: 30px;
+}
+.achievement-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+.achievements{
+    float: right;
+    margin-right: 30px; 
+}
+.contact-message{
+    width:40%;
+    margin: 40px auto 30px;
+}
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #F7F7F7;
+    font-size: 20px;
+    background: #393E46;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #F7F7F7;
+    color: #393E46;
+    text-decoration: none;
+  }
+a{
+    color: #393E46;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}  
+a.hover{
+    color: #F7F7F7; 
+}
+.copyright{
+    color: #393E46;
+    font-size: 0.75rem;
+    padding: 10px 0px;
+}
